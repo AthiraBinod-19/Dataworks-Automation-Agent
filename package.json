@@ -1,0 +1,33 @@
+{
+  "name": "dataworks-automation-agent",
+  "version": "1.0.0",
+  "description": "Automation agent for DataWorks tasks",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "automation",
+    "data",
+    "node",
+    "llm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cosine-similarity": "^1.0.1",
+    "express": "^4.21.2",
+    "markdown-it": "^13.0.1",
+    "moment": "^2.30.1",
+    "node-fetch": "^2.6.7",
+    "sqlite3": "^5.1.7",
+    "tesseract.js": "^6.0.0",
+    "uv": "^1.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
