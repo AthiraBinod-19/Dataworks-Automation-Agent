@@ -21,4 +21,8 @@ This is an automation agent for processing tasks for DataWorks Solutions.
 
 - **Docker image server (port 8000)**: The application packaged in the Docker image runs on this server. It listens for task requests and handles them based on the provided description.
   - Example: `http://localhost:8000/run?task=YOUR_TASK_DESCRIPTION`
+<<<<<<< HEAD
   - This server serves the API related to the containerized version of the app.
+=======
+  - This server serves the API related to the containerized version of the app.
+>>>>>>> cc585c6841fcce0a1a781c134744062f14577bc0
