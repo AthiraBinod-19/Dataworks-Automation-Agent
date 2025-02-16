@@ -8,7 +8,7 @@ const inputFilePath = path.join(__dirname, 'data', 'comments.txt');
 const outputFilePath = path.join(__dirname, 'data', 'comments-similar.txt');
 
 // OpenAI API setup (replace with your actual OpenAI API key)
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = 'your-API-key-here';
 const openaiUrl = 'https://api.openai.com/v1/embeddings';
 
 // Function to fetch embeddings from OpenAI
